@@ -76,44 +76,19 @@ Prima di chiudere, l'AI deve:
 
 ## 🚀 Quick Start
 
-### Installazione Automatica
-Esegui questo script nella root del tuo progetto per generare la struttura immediatamente.
-
-**Per Mac/Linux/WSL:**
-```bash
-# Scarica ed esegui lo script di setup
-curl -sL [https://gist.githubusercontent.com/placeholder/init_craicek.sh](https://gist.githubusercontent.com/placeholder/init_craicek.sh) | bash
-```
-
-*(Oppure crea il file `init.sh` manualmente con il codice sottostante)*
-
-<details>
-<summary>👀 Clicca per vedere il codice dello script Bash</summary>
+### 🍎🐧 Mac / Linux / WSL
+Esegui questo script nella root del tuo progetto:
 
 ```bash
-#!/bin/bash
-mkdir -p docs
-echo "# ⚡ SESSIONE ATTUALE
-> STATUS: INITIAL BOOT
-## 🎯 Obiettivo Unico
-Setup Iniziale
-## 📍 Dove eravamo rimasti
-- Start: Repository vuota
-## 📋 Checklist
-- [ ] Creare file base" > docs/00_CONTEXT.md
-
-echo "# Specifiche" > docs/01_SPECS.md
-echo "# Tech Rules" > docs/02_RULES.md
-echo "# Roadmap" > docs/10_ROADMAP.md
-echo "# Memory" > docs/20_MEMORY.md
-echo "# QA Testing" > docs/30_QA.md
-echo "# ⚡ PROTOCOLLO CRAICEK
-1. Leggi 00_CONTEXT.md all'avvio.
-2. Aggiorna 00_CONTEXT.md alla chiusura." > docs/Craicek_protocol.md
-
-echo "✅ Craicek Workflow installato in /docs"
+curl -sL [https://raw.githubusercontent.com/BitMakerMan/Craicek_workflow/main/init_craicek.sh](https://raw.githubusercontent.com/BitMakerMan/Craicek_workflow/main/init_craicek.sh) | bash
 ```
-</details>
+
+### 🪟 Windows (PowerShell)
+Scarica il file `init_craicek_win.ps1` nella root del progetto, poi:
+1. Tasto destro sul file scaricato.
+2. Seleziona **"Esegui con PowerShell"**.
+
+*(Oppure apri un terminale nella cartella ed esegui: `.\init_craicek_win.ps1`)*
 
 ---
 
@@ -144,7 +119,7 @@ STOP. Esegui la fase di Handover.
 | ✅ PRO | ❌ CONTRO |
 |--------|-----------|
 | **Risparmio Economico**: Meno token usati per input = meno costi API. | **Disciplina**: Richiede rigore nel lanciare il prompt di chiusura. |
-| **Focus Assoluto**: L'AI non si distrae con file inutili. | **Setup Iniziale**: Bisogna creare i 6 file (ma lo script aiuta). |
+| **Focus Assoluto**: L'AI non si distrae con file inutili. | **Setup Iniziale**: Bisogna creare i 6 file (lo script lo fa per te). |
 | **Continuità**: Puoi riprendere un progetto dopo 6 mesi in 30 secondi. | **Overhead**: Per task minuscoli (1 min) può sembrare eccessivo. |
 | **Qualità**: Il file `MEMORY.md` previene la ripetizione degli errori. | |
 
