@@ -76,13 +76,6 @@ Prima di chiudere, l'AI deve:
 
 ## 🚀 Quick Start
 
-### 🍎🐧 Mac / Linux / WSL
-Esegui questo script nella root del tuo progetto:
-
-```bash
-curl -sL [https://raw.githubusercontent.com/BitMakerMan/Craicek_workflow/main/init_craicek.sh](https://raw.githubusercontent.com/BitMakerMan/Craicek_workflow/main/init_craicek.sh) | bash
-```
-
 ### 🪟 Windows (PowerShell)
 Scarica il file `init_craicek_win.ps1` nella root del progetto, poi:
 1. Tasto destro sul file scaricato.
